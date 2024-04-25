@@ -2,10 +2,14 @@ package main
 
 import (
     "fmt"
+    "net/http"
     "os"
+    "time"
 
     tea "github.com/charmbracelet/bubbletea"
 )
+
+const url = "https://charm.sh/"
 
 type model struct {
     choices  []string
