@@ -2,9 +2,7 @@ package main
 
 import (
     "fmt"
-    "net/http"
     "os"
-    "time"
 
     tea "github.com/charmbracelet/bubbletea"
 )
